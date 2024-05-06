@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "homework-web-11"
+version = "0.1.0"
+description = ""
+authors = ["oleksandr-study <140350329+oleksandr-study@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.110.1"
+uvicorn = "^0.29.0"
+sqlalchemy = "^2.0.29"
+psycopg2 = "^2.9.9"
+alembic = "^1.13.1"
+pydantic = {extras = ["email"], version = "^2.7.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
